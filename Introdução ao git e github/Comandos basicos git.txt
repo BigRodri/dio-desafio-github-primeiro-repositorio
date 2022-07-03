@@ -1,0 +1,21 @@
+ls - lista os arquivos 
+
+dir - navega pelos diretorios
+
+cd - acessa o diretorio
+
+mkdir - cria um diretorio
+
+git init - inicializa um repositorio local git
+
+git status - verifica o estado dos arquivos
+
+git add  <nomeDOArquivo> - envia o arquivo especifico para o stage
+
+git add . - envia todos os arquivos para o stage
+
+git commit -m "tituloDoCommit" - envia o que esta no stage para o HEAD
+
+git remote add origin urlDoRepositorio - adiciona e indica a URL do repositório remoto em que os arquivos serão mantidos
+
+git push origin master -  envia os arquivos para o repositório remoto que você especificou através da URL do comando acima
